@@ -3,7 +3,6 @@ package main
 import (
 	"log"
 	"net/http"
-	"os"
 
 	"github.com/unrolled/render"
 
@@ -11,8 +10,8 @@ import (
 )
 
 var (
-	firstVar  = os.Getenv("FIRST_VAR")
-	secondVar = os.Getenv("SECOND_VAR")
+	firstVar  = "1"
+	secondVar = "2"
 	ren       = render.New()
 )
 
