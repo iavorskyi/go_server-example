@@ -14,6 +14,6 @@ jobs:
       with:
         image: sunua/go_server-example
         registry: docker.io
-        username: "sunua"
-        password: "0938536997"
+        username: DOCKER_USERNAME
+        password: DOCKER_PASSWORD
 
