@@ -9,8 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    - steps:
-        uses: mr-smithers-excellent/docker-build-push@v5
+    steps:
+      - uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: sunua/go_server-example
           registry: docker.io
