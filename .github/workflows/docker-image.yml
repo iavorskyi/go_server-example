@@ -12,7 +12,7 @@ jobs:
     steps:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: docker-hub-repo/image-name
+        image: sunua/go_server-example
         registry: docker.io
         username: sunua
         password: 0938536997
