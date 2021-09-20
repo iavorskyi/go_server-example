@@ -14,4 +14,4 @@ RUN go build -o /go_server-example
 
 EXPOSE 8000
 
-CMD ["./go_server-example"]
+CMD ["/go_server-example"]

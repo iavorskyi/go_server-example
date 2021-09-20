@@ -16,7 +16,7 @@ var (
 )
 
 func main() {
-
+	log.Println("Listening port: 8000")
 	log.Fatal(http.ListenAndServe(":8000", Handlers()))
 }
 
