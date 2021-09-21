@@ -30,5 +30,5 @@ func Handlers() http.Handler {
 }
 
 func hello() string {
-	return "Hlo Golang"
+	return "Hello Golang"
 }
