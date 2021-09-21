@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 
@@ -18,6 +19,7 @@ var (
 func main() {
 	log.Println("Listening port: 8000!!!")
 	log.Fatal(http.ListenAndServe(":8000", Handlers()))
+	fmt.Println(hello())
 }
 
 func Handlers() http.Handler {
@@ -27,5 +29,6 @@ func Handlers() http.Handler {
 	return r
 }
 
-func init() {
+func hello() string {
+	return "Hlo Golang"
 }
